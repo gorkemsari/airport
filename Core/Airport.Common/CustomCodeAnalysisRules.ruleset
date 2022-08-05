@@ -1,0 +1,7 @@
+<RuleSet Name="StyleCop rules for Data" Description="Custom Rules" ToolsVersion="1.0">   
+    <Rules AnalyzerId="StyleCop.Analyzers" RuleNamespace="StyleCop.CSharp.ReadabilityRules">     
+       <Rule Id="SA1402" Action="None" />
+       <Rule Id="SA1505" Action="None" />
+       <Rule Id="SA1508" Action="None" />
+    </Rules>
+</RuleSet>  

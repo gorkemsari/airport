@@ -1,0 +1,84 @@
+[2022-08-05 22:26:37.525 +03:00  INF]  Now listening on: https://localhost:7273
+[2022-08-05 22:26:37.556 +03:00  INF]  Now listening on: http://localhost:5012
+[2022-08-05 22:26:37.560 +03:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-08-05 22:26:37.560 +03:00  INF]  Hosting environment: Development
+[2022-08-05 22:26:37.560 +03:00  INF]  Content root path: /Users/gorkem/Projects/airport/Web/Airport.Api/
+[2022-08-05 22:27:27.437 +03:00  INF]  Request starting HTTP/1.1 GET https://localhost:7273/airports/distance/er/er - -
+[2022-08-05 22:27:27.557 +03:00  INF]  Executing endpoint 'Airport.Api.Controllers.AirportController.Distance (Airport.Api)'
+[2022-08-05 22:27:27.591 +03:00  INF]  Route matched with {action = "Distance", controller = "Airport"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Distance(System.String, System.String) on controller Airport.Api.Controllers.AirportController (Airport.Api).
+[2022-08-05 22:27:33.009 +03:00  INF]  test
+[2022-08-05 22:27:36.243 +03:00  INF]  Executing BadRequestObjectResult, writing value of type 'Airport.Common.Models.Response`1[[Airport.Api.Handlers.Airport.Distance.Responses.AirportDistanceHandlerResponse, Airport.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2022-08-05 22:27:36.272 +03:00  INF]  Executed action Airport.Api.Controllers.AirportController.Distance (Airport.Api) in 8663.5906ms
+[2022-08-05 22:27:36.273 +03:00  INF]  Executed endpoint 'Airport.Api.Controllers.AirportController.Distance (Airport.Api)'
+[2022-08-05 22:27:36.275 +03:00  INF]  Request finished HTTP/1.1 GET https://localhost:7273/airports/distance/er/er - - - 400 - application/json;+charset=utf-8 8842.0168ms
+[2022-08-05 22:33:55.683 +03:00  INF]  Now listening on: https://localhost:7273
+[2022-08-05 22:33:55.720 +03:00  INF]  Now listening on: http://localhost:5012
+[2022-08-05 22:33:55.724 +03:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-08-05 22:33:55.724 +03:00  INF]  Hosting environment: Development
+[2022-08-05 22:33:55.724 +03:00  INF]  Content root path: /Users/gorkem/Projects/airport/Web/Airport.Api/
+[2022-08-05 22:34:11.249 +03:00  INF]  Request starting HTTP/1.1 GET https://localhost:7273/airports/distance/er/er - -
+[2022-08-05 22:34:11.399 +03:00  INF]  Executing endpoint 'Airport.Api.Controllers.AirportController.Distance (Airport.Api)'
+[2022-08-05 22:34:11.436 +03:00  INF]  Route matched with {action = "Distance", controller = "Airport"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Distance(System.String, System.String) on controller Airport.Api.Controllers.AirportController (Airport.Api).
+[2022-08-05 22:34:14.893 +03:00  INF]  Executing BadRequestObjectResult, writing value of type 'Airport.Common.Models.Response`1[[Airport.Api.Handlers.Airport.Distance.Responses.AirportDistanceHandlerResponse, Airport.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2022-08-05 22:34:14.910 +03:00  INF]  Executed action Airport.Api.Controllers.AirportController.Distance (Airport.Api) in 3466.985ms
+[2022-08-05 22:34:14.912 +03:00  INF]  Executed endpoint 'Airport.Api.Controllers.AirportController.Distance (Airport.Api)'
+[2022-08-05 22:34:14.936 +03:00  INF]  Request finished HTTP/1.1 GET https://localhost:7273/airports/distance/er/er - - - 400 - application/json;+charset=utf-8 3667.3767ms
+[2022-08-05 22:48:14.472 +03:00  INF]  Now listening on: https://localhost:7273
+[2022-08-05 22:48:14.501 +03:00  INF]  Now listening on: http://localhost:5012
+[2022-08-05 22:48:14.505 +03:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-08-05 22:48:14.505 +03:00  INF]  Hosting environment: Development
+[2022-08-05 22:48:14.505 +03:00  INF]  Content root path: /Users/gorkem/Projects/airport/Web/Airport.Api/
+[2022-08-05 22:48:29.475 +03:00  INF]  Request starting HTTP/1.1 GET https://localhost:7273/swagger/index.html - -
+[2022-08-05 22:48:29.596 +03:00  INF]  Request finished HTTP/1.1 GET https://localhost:7273/swagger/index.html - - - 200 - text/html;charset=utf-8 123.3356ms
+[2022-08-05 22:48:29.874 +03:00  INF]  Request starting HTTP/1.1 GET https://localhost:7273/swagger/v1/swagger.json - -
+[2022-08-05 22:48:29.985 +03:00  INF]  Request finished HTTP/1.1 GET https://localhost:7273/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 110.8080ms
+[2022-08-05 22:50:23.146 +03:00  INF]  Now listening on: https://localhost:7273
+[2022-08-05 22:50:23.179 +03:00  INF]  Now listening on: http://localhost:5012
+[2022-08-05 22:50:23.183 +03:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-08-05 22:50:23.183 +03:00  INF]  Hosting environment: Development
+[2022-08-05 22:50:23.183 +03:00  INF]  Content root path: /Users/gorkem/Projects/airport/Web/Airport.Api/
+[2022-08-05 22:51:33.038 +03:00  INF]  Request starting HTTP/1.1 GET https://localhost:7273/airports/distance/AAR/ABD - -
+[2022-08-05 22:51:33.174 +03:00  INF]  Executing endpoint 'Airport.Api.Controllers.AirportController.Distance (Airport.Api)'
+[2022-08-05 22:51:33.209 +03:00  INF]  Route matched with {action = "Distance", controller = "Airport"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Distance(System.String, System.String) on controller Airport.Api.Controllers.AirportController (Airport.Api).
+[2022-08-05 22:51:34.285 +03:00  INF]  Executing OkObjectResult, writing value of type 'Airport.Common.Models.Response`1[[Airport.Api.Handlers.Airport.Distance.Responses.AirportDistanceHandlerResponse, Airport.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2022-08-05 22:51:34.305 +03:00  INF]  Executed action Airport.Api.Controllers.AirportController.Distance (Airport.Api) in 1089.3905ms
+[2022-08-05 22:51:34.306 +03:00  INF]  Executed endpoint 'Airport.Api.Controllers.AirportController.Distance (Airport.Api)'
+[2022-08-05 22:51:34.310 +03:00  INF]  Request finished HTTP/1.1 GET https://localhost:7273/airports/distance/AAR/ABD - - - 200 - application/json;+charset=utf-8 1276.1456ms
+[2022-08-05 22:52:39.184 +03:00  INF]  Request starting HTTP/1.1 GET https://localhost:7273/airports/distance/IZM/ADB - -
+[2022-08-05 22:52:39.185 +03:00  INF]  Executing endpoint 'Airport.Api.Controllers.AirportController.Distance (Airport.Api)'
+[2022-08-05 22:52:39.185 +03:00  INF]  Route matched with {action = "Distance", controller = "Airport"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Distance(System.String, System.String) on controller Airport.Api.Controllers.AirportController (Airport.Api).
+[2022-08-05 22:52:39.805 +03:00  INF]  Executing OkObjectResult, writing value of type 'Airport.Common.Models.Response`1[[Airport.Api.Handlers.Airport.Distance.Responses.AirportDistanceHandlerResponse, Airport.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2022-08-05 22:52:39.806 +03:00  INF]  Executed action Airport.Api.Controllers.AirportController.Distance (Airport.Api) in 620.709ms
+[2022-08-05 22:52:39.806 +03:00  INF]  Executed endpoint 'Airport.Api.Controllers.AirportController.Distance (Airport.Api)'
+[2022-08-05 22:52:39.806 +03:00  INF]  Request finished HTTP/1.1 GET https://localhost:7273/airports/distance/IZM/ADB - - - 200 - application/json;+charset=utf-8 622.2113ms
+[2022-08-05 22:53:01.270 +03:00  INF]  Request starting HTTP/1.1 GET https://localhost:7273/airports/distance/SAW/ADB - -
+[2022-08-05 22:53:01.277 +03:00  INF]  Executing endpoint 'Airport.Api.Controllers.AirportController.Distance (Airport.Api)'
+[2022-08-05 22:53:01.277 +03:00  INF]  Route matched with {action = "Distance", controller = "Airport"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Distance(System.String, System.String) on controller Airport.Api.Controllers.AirportController (Airport.Api).
+[2022-08-05 22:53:01.835 +03:00  INF]  Executing OkObjectResult, writing value of type 'Airport.Common.Models.Response`1[[Airport.Api.Handlers.Airport.Distance.Responses.AirportDistanceHandlerResponse, Airport.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2022-08-05 22:53:01.835 +03:00  INF]  Executed action Airport.Api.Controllers.AirportController.Distance (Airport.Api) in 558.3992ms
+[2022-08-05 22:53:01.835 +03:00  INF]  Executed endpoint 'Airport.Api.Controllers.AirportController.Distance (Airport.Api)'
+[2022-08-05 22:53:01.836 +03:00  INF]  Request finished HTTP/1.1 GET https://localhost:7273/airports/distance/SAW/ADB - - - 200 - application/json;+charset=utf-8 566.0627ms
+[2022-08-05 22:57:43.461 +03:00  INF]  Now listening on: https://localhost:7273
+[2022-08-05 22:57:43.489 +03:00  INF]  Now listening on: http://localhost:5012
+[2022-08-05 22:57:43.493 +03:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-08-05 22:57:43.493 +03:00  INF]  Hosting environment: Development
+[2022-08-05 22:57:43.494 +03:00  INF]  Content root path: /Users/gorkem/Projects/airport/Web/Airport.Api/
+[2022-08-05 22:58:06.956 +03:00  INF]  Now listening on: https://localhost:7273
+[2022-08-05 22:58:06.989 +03:00  INF]  Now listening on: http://localhost:5012
+[2022-08-05 22:58:06.993 +03:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-08-05 22:58:06.993 +03:00  INF]  Hosting environment: Development
+[2022-08-05 22:58:06.993 +03:00  INF]  Content root path: /Users/gorkem/Projects/airport/Web/Airport.Api/
+[2022-08-05 23:01:06.532 +03:00  INF]  Now listening on: https://localhost:7273
+[2022-08-05 23:01:06.565 +03:00  INF]  Now listening on: http://localhost:5012
+[2022-08-05 23:01:06.569 +03:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-08-05 23:01:06.569 +03:00  INF]  Hosting environment: Development
+[2022-08-05 23:01:06.569 +03:00  INF]  Content root path: /Users/gorkem/Projects/airport/Web/Airport.Api/
+[2022-08-05 23:01:16.718 +03:00  INF]  Request starting HTTP/1.1 GET https://localhost:7273/swagger/index.html - -
+[2022-08-05 23:01:16.855 +03:00  INF]  Request finished HTTP/1.1 GET https://localhost:7273/swagger/index.html - - - 200 - text/html;charset=utf-8 109.2722ms
+[2022-08-05 23:01:17.105 +03:00  INF]  Request starting HTTP/1.1 GET https://localhost:7273/swagger/v1/swagger.json - -
+[2022-08-05 23:01:17.295 +03:00  INF]  Request finished HTTP/1.1 GET https://localhost:7273/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 189.9834ms
+[2022-08-05 23:01:48.198 +03:00  INF]  Now listening on: https://localhost:7274
+[2022-08-05 23:01:48.240 +03:00  INF]  Now listening on: http://localhost:5012
+[2022-08-05 23:01:48.247 +03:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-08-05 23:01:48.247 +03:00  INF]  Hosting environment: Development
+[2022-08-05 23:01:48.247 +03:00  INF]  Content root path: /Users/gorkem/Projects/airport/Web/Airport.Api/

@@ -1,0 +1,37 @@
+[
+  {
+    "Key": "Global.Mile",
+    "Values": {
+      "en-US": "M (miles)",
+      "tr-TR": "M (mil)"
+    }
+  },
+  {
+    "Key": "Global.Error",
+    "Values": {
+      "en-US": "Something is wrong. Please try again later.",
+      "tr-TR": "Birşeyler hatalı görünüyor. Lütfen daha sonra tekrar deneyin."
+    }
+  },
+  {
+    "Key": "Airport.Error.InvalidCode",
+    "Values": {
+      "en-US": "Invalid code",
+      "tr-TR": "Geçersiz kod"
+    }
+  },
+  {
+    "Key": "Airport.Error.InvalidCodeAll",
+    "Values": {
+      "en-US": "Only uppercase and 3-letters are accepted",
+      "tr-TR": "Sadece büyük harfler ve 3 karakter geçerlidir"
+    }
+  },
+  {
+    "Key": "Airport.Error.Calculation",
+    "Values": {
+      "en-US": "Calculation error",
+      "tr-TR": "Hesaplama hatası"
+    }
+  }
+]
