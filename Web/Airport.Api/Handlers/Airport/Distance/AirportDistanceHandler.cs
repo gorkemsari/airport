@@ -10,7 +10,6 @@ using Airport.Common.Models;
 using Airport.Infrastructure.AirportInfo;
 using Airport.Infrastructure.AirportInfo.Requests;
 using Airport.Infrastructure.Localization.Interfaces;
-using AutoMapper;
 using MediatR;
 
 namespace Airport.Api.Handlers.Airport.Distance
@@ -22,7 +21,6 @@ namespace Airport.Api.Handlers.Airport.Distance
     {
         private readonly IAirportInfoService airportInfoService;
         private readonly IResponser responser;
-        private readonly IMapper mapper;
         private readonly ICalculator calculator;
         private readonly IValidator validator;
         private readonly ILocalizer localizer;
@@ -33,7 +31,6 @@ namespace Airport.Api.Handlers.Airport.Distance
         /// </summary>
         /// <param name="airportInfoService">AirportInfoService instance.</param>
         /// <param name="responser">Responser instance.</param>
-        /// <param name="mapper">Mapper instance.</param>
         /// <param name="calculator">Calculator instance.</param>
         /// <param name="validator">Validator instance.</param>
         /// <param name="localizer">Localizer instance.</param>
@@ -41,7 +38,6 @@ namespace Airport.Api.Handlers.Airport.Distance
         public AirportDistanceHandler(
             IAirportInfoService airportInfoService,
             IResponser responser,
-            IMapper mapper,
             ICalculator calculator,
             IValidator validator,
             ILocalizer localizer,
@@ -49,7 +45,6 @@ namespace Airport.Api.Handlers.Airport.Distance
         {
             this.airportInfoService = airportInfoService;
             this.responser = responser;
-            this.mapper = mapper;
             this.calculator = calculator;
             this.validator = validator;
             this.localizer = localizer;
