@@ -1,3 +1,3 @@
 # airport
 
-It is measure distance in miles between two airports.
+It measures distance in miles between two airports.
